@@ -1,0 +1,43 @@
+{
+  "name": "@alecliu/claude-zai-usage",
+  "version": "0.1.0",
+  "description": "Claude Code custom status line for the Zhipu GLM / Z.ai Coding Plan: real server-side quota badges (5h / weekly / web tools) plus context-window usage. Zero dependencies.",
+  "keywords": [
+    "claude-code",
+    "claude-code-statusline",
+    "statusline",
+    "zai",
+    "zhipu",
+    "glm",
+    "bigmodel",
+    "coding-plan",
+    "usage"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Alec",
+    "url": "https://github.com/Alec01"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alec01/claude-zai-usage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alec01/claude-zai-usage/issues"
+  },
+  "homepage": "https://github.com/Alec01/claude-zai-usage#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "bin": {
+    "zai-usage-statusline": "bin/statusline.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
